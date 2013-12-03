@@ -1,6 +1,69 @@
 body{
-	font: 100%/1.5 "berkshire swash", arial, sans-serif;
+	font: 100%/1.5 arial, sans-serif;
 	/* Value Error : font 1.5 is not a font value : 100% 1.5 "berkshire swash",arial,sans-serif ???*/
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+h1{
+	font-family: arial, cursive;
+	text-align: center;
+	text-decoration: underline;
+	background: rgb(77, 179, 38);
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .004%;
+	max-width: 100%;
+	overflow: hidden
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+	background-color: rgb(77, 179, 38);
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .004%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+	background-color: #999;
+	max-width: 23.529411764706%;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .004%;
+	overflow: hidden
+}
+
+ol{
+	background-color: #999;
+	list-style-type: none;
+	max-width: 55%;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .004%;
+	overflow: hidden
+}
+
+a:link{
+	color: #29273b;
+}
+
+a:hover{
+	color: #f03;
+	background: #863;
+}
+
+
+footer{
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .004%;
+	text-align: center;
+	max-width: 98.5%;
 }
