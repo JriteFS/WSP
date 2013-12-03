@@ -1,0 +1,6 @@
+body{
+	font: 100%/1.5 "berkshire swash", arial, sans-serif;
+	/* Value Error : font 1.5 is not a font value : 100% 1.5 "berkshire swash",arial,sans-serif ???*/
+	max-width: 960px;
+	margin: 0 auto;
+}
